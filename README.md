@@ -37,8 +37,8 @@
  ### Step 5
  Run test data script [Generated_Data.sql](https://github.com/Sun-Sarun/PharmacySystem/blob/main/database/Data/Generated_Data.sql)
 
-#References
+# References
 [ER Diagram for Pharmacy Management System](ER Diagram for Pharmacy Management System)
 ---
-#ERD
-![erd](images\diagram-export-2-9-2026-5_04_34-AM.png)
+# ERD
+![erd](images/diagram-export-2-9-2026-5_04_34-AM.png)
