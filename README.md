@@ -10,11 +10,11 @@
 
  ### Step 2
  Connect to Database as SYSTEM
- Username: `system`
- Password: "your prefer passwords"
- Host: `localhost`
- Port: `1521`
- SID: `free`
+ Username: `system`</br>
+ Password: "your prefer passwords"</br>
+ Host: `localhost`</br>
+ Port: `1521`</br>
+ SID: `free`</br>
 
  ---
 
