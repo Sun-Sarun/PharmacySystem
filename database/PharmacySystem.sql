@@ -4,7 +4,8 @@ CREATE TABLE Medicines (
     med_category VARCHAR2(100),
     name VARCHAR2(200) NOT NULL,
     description CLOB,
-    price NUMBER(10, 2)
+    price NUMBER(10, 2),
+	photo BLOB
 );
 
 -- 2. Create Customer Table
@@ -16,7 +17,9 @@ CREATE TABLE Customer (
     age NUMBER(3),
     contact_add VARCHAR2(255),
     cust_email VARCHAR2(100) UNIQUE,
-    cust_pass VARCHAR2(100)
+    cust_pass VARCHAR2(100),
+	photo BLOB
+
 );
 
 -- 3. Create Pharmacist Table
@@ -26,9 +29,11 @@ CREATE TABLE Pharmacist (
     lname VARCHAR2(50),
     gender VARCHAR2(10),
     age NUMBER(3),
+	photo 
     contact_add VARCHAR2(255),
     admin_email VARCHAR2(100) UNIQUE,
-    admin_pass VARCHAR2(100)
+    admin_pass VARCHAR2(100),
+	photo BLOB
 );
 
 -- 4. Create Purchasing Table
