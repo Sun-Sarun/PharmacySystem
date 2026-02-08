@@ -1,11 +1,14 @@
-CREATE OR REPLACE VIEW Pharmacist_Sales_Report AS
+CREATE OR REPLACE VIEW View_Sales_Analytics AS
 SELECT 
-    p.phar_ID AS Staff_ID,
-    p.fname || ' ' || p.lname AS Pharmacist_Name,
-    COUNT(s.sales_ID) AS Total_Transactions,
-    SUM(s.count) AS Total_Units_Sold,
-    TO_CHAR(SUM(s.total_amount), '$99,999.00') AS Total_Revenue_Generated,
-    MAX(s.sale_date) AS Last_Sale_Date
-FROM Pharmacist p
-LEFT JOIN Sales s ON p.phar_ID = s.phar_ID
-GROUP BY p.phar_ID, p.fname, p.lname;
+    s.sales_ID,
+    m.name AS Product_Sold,
+    m.med_category AS Category,
+    p.quantity AS Quantity_Sold,
+    s.unit_price_at_sale AS Price_Per_Unit,
+    s.total_amount AS Revenue_Generated,
+    s.sale_date AS Sale_Timestamp,
+    ph.fname || ' ' || ph.lname AS Pharmacist_Name
+FROM Sales s
+JOIN Purchasing p ON s.purchase_ID = p.purchase_ID
+JOIN Medicines m ON p.med_ID = m.med_ID
+JOIN Pharmacist ph ON s.phar_ID = ph.phar_ID;
