@@ -1,5 +1,6 @@
 CREATE OR REPLACE VIEW View_Customer_Receipts AS
 SELECT 
+    c.cust_ID, -- Added this line to enable filtering by Customer ID
     s.sales_ID AS Receipt_No,
     c.fname || ' ' || c.lname AS Customer_Name,
     m.name AS Medicine_Name,
