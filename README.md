@@ -19,7 +19,7 @@
  ---
 
  ### Step 3
- Create user Name must be `C##PHARMACYSYSTEM`
+ Create user Name must be [C##PHARMACYSYSTEM](https://github.com/Sun-Sarun/PharmacySystem/blob/main/database/User/Create_User.sql)
  Grant permission to as System.
 
  ---
