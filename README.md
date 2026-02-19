@@ -40,7 +40,7 @@
 
 # Documentation
 [Data Analysis Book](https://docs.google.com/document/d/1HX51INusfO_gLxMe6IMSvC7S6JRV7qvu/edit?usp=drive_link&ouid=103669069494162621021&rtpof=true&sd=true)
-
+[Presentation](https://www.canva.com/design/DAHAUtwS3Kw/iN9FH4K_iGnf-eRikUHomA/edit?utm_content=DAHAUtwS3Kw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ---
 
 # ERD
