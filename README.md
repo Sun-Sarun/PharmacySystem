@@ -52,12 +52,12 @@ The system architecture follows a normalized relational structure to ensure data
 [Image of Pharmacy Management System ER Diagram]
 
 
-![erd](images/diagram-export-2-9-2026-5_04_34-AM.png)
+![erd](https://github.com/Sun-Sarun/PharmacySystem/blob/main/images/Untitled%20diagram-2026-02-19-151513.svg))
 
 [Image of Pharmacy Management System DF Diagram]
 
 
-![dfd](images/Untitled diagram-2026-02-19-150312.svg)
+![dfd](https://github.com/Sun-Sarun/PharmacySystem/blob/main/images/Untitled%20diagram-2026-02-19-150312.svg)
 
 ### Project Assets
 * **Documentation:** [Data Analysis Deep-Dive](https://docs.google.com/document/d/1HX51INusfO_gLxMe6IMSvC7S6JRV7qvu/edit?usp=drive_link)
