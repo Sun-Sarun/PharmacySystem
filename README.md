@@ -54,6 +54,11 @@ The system architecture follows a normalized relational structure to ensure data
 
 ![erd](images/diagram-export-2-9-2026-5_04_34-AM.png)
 
+[Image of Pharmacy Management System DF Diagram]
+
+
+![dfd](images/Untitled diagram-2026-02-19-150312.svg)
+
 ### Project Assets
 * **Documentation:** [Data Analysis Deep-Dive](https://docs.google.com/document/d/1HX51INusfO_gLxMe6IMSvC7S6JRV7qvu/edit?usp=drive_link)
 * **Presentation:** [Project Overview Slide Deck](https://www.canva.com/design/DAHAUtwS3Kw/iN9FH4K_iGnf-eRikUHomA/edit)
