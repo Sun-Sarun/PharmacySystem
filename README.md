@@ -1,7 +1,7 @@
 # 💊 PharmacySystem
 **A comprehensive database solution for modern pharmacy management.**
-
-[![Database](https://img.shields.io/badge/Database-Oracle_26ai-F80000?style=for-the-badge&logo=oracle)](https://www.oracle.com/database/)
+[![UserInterface](https://img.shields.io/badge/MS-Access-F80000?style=for-the-badge&logo=oracle)]
+[![Database](https://img.shields.io/badge/Database-Oracle_26ai-008000?style=for-the-badge&logo=oracle)](https://www.oracle.com/database/)
 [![Status](https://img.shields.io/badge/Status-Archive-yellow?style=for-the-badge)](#)
 
 This repository provides a robust, normalized relational database designed to handle inventory, prescriptions, and sales transactions.
