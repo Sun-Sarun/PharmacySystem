@@ -1,7 +1,7 @@
 # 💊 PharmacySystem
 **A comprehensive database solution for modern pharmacy management.**
 
-[![UserInterface](https://img.shields.io/badge/UserInterface-Access-F80000?style=for-the-badge&logo=oracle)](#)
+[![UserInterface](https://img.shields.io/badge/UserInterface-MS_Access-F80000?style=for-the-badge&logo=oracle)](#)
 [![Database](https://img.shields.io/badge/Database-Oracle_26ai-008000?style=for-the-badge&logo=oracle)](https://www.oracle.com/database/)
 [![Status](https://img.shields.io/badge/Status-Archive-yellow?style=for-the-badge)](#)
 
